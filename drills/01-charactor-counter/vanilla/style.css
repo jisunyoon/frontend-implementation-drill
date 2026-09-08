@@ -1,0 +1,44 @@
+body {
+    font-family: system-ui, sans-serif;
+    padding: 24px;
+}
+
+.count {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: 140px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font: inherit;
+    resize: vertical;
+}
+
+.count:focus {
+    outline: 2px solid #4a90d9;
+    outline-offset: 1px;
+}
+
+.remain {
+    max-width: 480px;
+    margin: 8px 0 0;
+    text-align: right;
+    color: #888;
+    font-size: 14px;
+}
+
+.remain__text {
+    font-variant-numeric: tabular-nums;
+    color: #444;
+}
+
+.remain__text--warning {
+    color: #d97706;
+    font-weight: 600;
+}
+
+.remain__text--danger {
+    color: #dc2626;
+    font-weight: 600;
+}
