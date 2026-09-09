@@ -1,0 +1,44 @@
+body {
+    font-family: system-ui, sans-serif;
+    padding: 24px;
+}
+
+.select {
+    max-width: 480px;
+}
+
+.select__all {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 4px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.select__list {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.select__list li label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 4px 8px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.select__count {
+    color: #888;
+    font-size: 14px;
+}
+
+.select__total {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: #444;
+}

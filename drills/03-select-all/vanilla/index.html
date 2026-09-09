@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-select-all</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="select">
+        <label class="select__all">
+            <input type="checkbox" class="select__all-input">
+            전체선택
+        </label>
+
+        <ul class="select__list">
+            <li><label><input type="checkbox" class="select__item"> 사과</label></li>
+            <li><label><input type="checkbox" class="select__item"> 바나나</label></li>
+            <li><label><input type="checkbox" class="select__item"> 딸기</label></li>
+            <li><label><input type="checkbox" class="select__item"> 포도</label></li>
+        </ul>
+
+        <p class="select__count">선택 <span class="select__total">0</span>개</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

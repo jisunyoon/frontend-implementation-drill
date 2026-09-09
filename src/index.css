@@ -1,3 +1,4 @@
 /* 드릴별 스타일 — 바닐라 쪽 CSS를 그대로 재사용 */
 @import '../drills/01-charactor-counter/vanilla/style.css';
 @import '../drills/02-todo-list/vanilla/style.css';
+@import '../drills/03-select-all/vanilla/style.css';
